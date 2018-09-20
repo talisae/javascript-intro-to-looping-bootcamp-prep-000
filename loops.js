@@ -25,3 +25,6 @@ for ([initialization]; [condition]; [iteration]) {
 while ([condition]) {
   [loopBody];
 } // when we don't know how many times a loop needs to run - that is, the condition is dependent on a dynamic function/return value.
+do {
+  [loopBody];
+} while ([condition]);
