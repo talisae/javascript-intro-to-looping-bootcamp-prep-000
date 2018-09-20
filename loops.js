@@ -8,3 +8,8 @@ function forLoop(array){
   }
   return array;
 }
+
+
+for ([initialization]; [condition]; [iteration]) {
+  [loopBody];
+}
