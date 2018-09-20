@@ -13,3 +13,6 @@ function forLoop(array){
 for ([initialization]; [condition]; [iteration]) {
   [loopBody];
 }
+while ([condition]) {
+  [loopBody];
+}
