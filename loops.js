@@ -15,13 +15,3 @@ function whileLoop(n){
   }
   return 'done';
 }
-var i = 0;
-function doWhileLoop(array) {
-  i = i + 1;
-}
-do {
-  array.shift();
-  doWhileLoop();
-} while (array.length > 0 && doWhileLoop());
-return array;
-
