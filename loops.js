@@ -19,12 +19,11 @@ var i = 0;
 function incrementVariable() {
   i = i + 1;
 }
-function doWhileLoop(array){
-  do {
-  array.shift()
-  }while array.length > 0 && incrementVariable();
- 
-}
+do {
+  array.shift();
+  incrementVariable();
+} while (array.length > 0 && incrementVariable());
+return array;
 
 for ([initialization]; [condition]; [iteration]) {
   [loopBody];
